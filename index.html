@@ -1,0 +1,162 @@
+---
+layout: single
+title: "Computer Science Capstone ePortfolio"
+permalink: /
+---
+
+<div class="portfolio-container">
+
+<h1>Kailey Blankenship</h1>
+
+<h2>Computer Science Capstone ePortfolio</h2>
+
+<p>
+Welcome to my CS 499 ePortfolio!
+</p>
+
+<hr>
+
+<!-- Self Assessment -->
+
+<h2>Professional Self-Assessment</h2>
+
+<p>
+To be completed. 
+</p>
+
+<hr>
+
+<!-- Code Review -->
+
+<h2>Code Review</h2>
+
+<p>
+This video provides a walkthrough of my code for three different projects, detailing existing functionality, the code itself, and enhancement plans.
+</p>
+
+
+<div class="video-container">
+
+<iframe 
+width="800"
+height="450"
+src="https://youtu.be/UOrAFlIyVhw"
+frameborder="0"
+allowfullscreen>
+</iframe>
+
+</div>
+
+
+<hr>
+
+<!-- Projects -->
+
+<h2>Enhanced Artifacts</h2>
+
+
+<!-- Project 1 -->
+
+<h3>Artifact 1: Software Design and Engineering</h3>
+
+<h4>Appointment Tracker</h4>
+
+<p>
+This project is a local application that allows users to add, edit, and delete appointments from a simple interface.
+</p>
+
+<p>The artifact was created in the CS 320 course. This project was created in October 2025. The original purpose of this artifact was to be able to manage appointments through creating, updating, reading, and deleting using Java. The intended priority of this project was ensuring all features were fully tested through JUnit tests.
+I selected this item to display my skills in software engineering and design because I saw a lot of opportunities to improve the current design, which was largely a simple backend with testing. I wanted to be able to create a project using a stack I have not tried before, which was JavaFX with Maven and SQLite. Since this is a full stack application now, it shows my ability to connect a backend with a frontend and have reliable communication with a database. It also displays my skills in defensive programming as it does have strict requirements for appointment handling. The artifact was improved by giving the user a UI to interact with. It also was made more efficient by transforming from a hashmap to a local database. Lastly, it is now more developer-friendly because I fully commented the program where there weren’t any comments before.
+I do think I met the course outcomes I planned to meet in the original plan. In the original plan, I detailed that I would be making this project more collaborative and use better security practices. By commenting and making the code modular, this does prep the project to be worked on by developers in the future. I also moved to a database architecture with a controller-service-repository architecture to protect its data. I also ensured there was validation throughout the project. I think this project also exemplifies the fourth course outcome since I am using well-founded techniques to build this project. It is a simple application, but to prepare it for further growth, I did develop it with the future in mind.
+As I was enhancing this artifact, I quickly realized that my plan was not as fleshed out as it could have been. I could have planned the architecture a bit better. It made me realize how important the planning phase is in software development and how much easier the process could have been if I spent more time planning the overall architecture I wanted and how I would use the code I had already written. Most of the backend was easy to set up. I did not feel like I was running into challenges until I started working on the frontend, but that is more so due to me learning more about JavaFX and how to connect to the backend from there. As I was walking through my code again, I realized I had coded too defensively and accidentally coded validation branches throughout multiple parts of the code, to which I fixed as well. 
+</p>
+
+
+<p>
+<a href="https://github.com/kailey-blankenship/AppointmentTracker">
+View Repository
+</a>
+</p>
+
+
+
+<hr>
+
+
+<!-- Project 2 -->
+
+<h3>Artifact 2: Algorithms and Data Structures</h3>
+
+<h4>Rescue Animal Project</h4>
+
+<p>
+This project is a Java-based rescue animal application designed for the user to manage animal records within the rescue.
+</p>
+
+<p>This artifact was created in IT 145 in February 2025. This was an application created to manage a rescue animal service. Its main priorities were to be able to create new animals, reserve animals, and print the animals that were in the system.
+I selected this artifact for my ePortfolio because it shows my improvement in understanding code efficiency, specifically in algorithms and data structures. Upon initially completing this application, it functioned but not as well as it could, which is what I worked on enhancing for this artifact. I transferred from an ArrayList to a HashMap to improve search features that already existed, such as checking whether a name already existed in the system. I also improved this artifact by adding validation to the inputs where there was none before as well as fixing loops that would run infinitely. The only reason these loops were missed when I initially created this project was due to a “return” statement that was always triggered.
+In my initial proposal, I said this artifact would align with the third course outcome that states that I would design and evaluate computing solutions for a given problem. I believe this was accomplished as well as a couple other course outcomes. I also think my enhancements covered the first and last course outcomes as well since I improved the commenting for future developers and added validation. 
+As I was enhancing this artifact, I was following the pseudocode I wrote in my initial proposal. I learned that there is often multiple solutions to one problem. During my development, I found even more efficient ways to tackle a problem. In this specific application, the only challenge I faced was having to refactor all the methods to work with a HashMap instead of an ArrayList. Some loops would also often print an animal’s details then also print that “no animals were found”, which was an easy fix.
+</p>
+
+
+<p>
+<a href="https://github.com/kailey-blankenship/RescueAnimalProject">
+View Repository
+</a>
+</p>
+
+
+
+<hr>
+
+
+<!-- Project 3 -->
+
+<h3>Artifact 3: Databases</h3>
+
+<h4>Rescue Animal Dashboard</h4>
+
+<p>
+This project is a Python-based dashboard application that allows users to interact with data from rescue services to find animals that meet their criteria.
+</p>
+
+
+<p>This artifact was made in March, 2026 during CS 340. It was initially a Jupyter Dash notebook and Python CRUD module. Its purpose was to provide a frontend dashboard for users to be able to find information on rescue animals, including a pie chart and geolocation data.  
+I included this artifact in my ePortfolio because I saw a lot of improvement in the CRUD methods as well as how the dashboard communicates with the database. In this artifact, it showcases my skills in creating efficient code that can be evolved over time. Along with this, it shows my understanding of CRUD features due to exception handling. I improved this artifact by first removing the hardcoded data, which was seen in the “rescue types” that were premade queries. I added dynamic filtering so that users can select the specific animal they are looking for with options for type, breed, sex, and age. With that, I also changed the radio buttons that were used for the rescue types to be dropdowns and integer inputs. I also fixed the CRUD methods to anticipate missing data and throw exceptions with proper error messages. Lastly, I cleaned up the comments since there were a lot of “FIXME” comments as well as unused code. This artifact was also changed from a Jupyter notebook to a Python file for the dashboard as well as the CRUD module.
+In my initial plan, the third course outcome was my intended mark for this artifact. I believe I met this outcome whenever I decided to move from the hardcoded data to a more dynamic filtering system. I had to evaluate the tradeoffs for this change. I think I also met the second course outcome because I did change this artifact to be more user-friendly by allowing users to select exactly what animal they were looking for. This also future proofs this project as well.
+As I was improving this artifact, I learned more about MongoDB and authentication. During improvement, I moved from a Jupyter Notebook to a Python file in VS Code. Because I was working off my local computer instead of the online environment, I had to adjust my MongoDB server to accept authentication.  
+</p>
+
+
+<p>
+<a href="https://github.com/kailey-blankenship/RescueAnimalDashboard">
+View Repository
+</a>
+</p>
+
+
+
+<hr>
+
+
+<!-- Contact -->
+
+<h2>Contact</h2>
+
+
+<p>
+<a href="YOUR_GITHUB">
+GitHub
+</a>
+</p>
+
+
+<p>
+<a href="YOUR_LINKEDIN">
+LinkedIn
+</a>
+</p>
+
+
+</div>

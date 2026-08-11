@@ -1,1 +1,21 @@
-remote-theme: mmistakes/minimal-mistakes
+remote_theme: mmistakes/minimal-mistakes
+
+title: "Computer Science ePortfolio"
+description: "CS 499 Capstone Portfolio"
+
+plugins:
+  - jekyll-include-cache
+
+minimal_mistakes_skin: "default"
+
+author:
+  name: "Your Name"
+  bio: "Computer Science Student | Software Developer"
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
