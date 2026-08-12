@@ -9,8 +9,8 @@ plugins:
 minimal_mistakes_skin: "default"
 
 author:
-  name: "Your Name"
-  bio: "Computer Science Student | Software Developer"
+  name: "Kailey Blankenship"
+  bio: "Software Developer"
 
 defaults:
   - scope:
